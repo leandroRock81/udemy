@@ -1,0 +1,43 @@
+body {
+    width: 80%;
+    margin: auto;
+}
+h1 {
+    
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    font-size: 40px;
+    text-align: center;
+    background-color: orange;
+    width: 1000px;
+    margin-top: 20px;
+    padding: 5px;
+
+}
+.sub {
+    color: brown;
+    text-align: left;
+    border-bottom: 5px brown  solid;
+    border-left: 5px brown solid;
+}
+h3 {
+    font-size: 20px;
+}
+p {
+    font-size: large;
+}
+li {
+    font-size: large;
+}
+a {
+    text-decoration: none;
+}
+a:hover {
+    transition: 0.9s;
+    text-decoration: underline;
+    color: cadetblue;
+    
+}
+a:visited {
+    color: red;
+}
