@@ -1,0 +1,23 @@
+body {
+    background-color: rgb(233, 200, 158);
+}
+
+h1 {
+    background-color: antiquewhite;
+    text-decoration: underline;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    font-style: normal;
+    font-variant: small-caps;
+    color: darkblue;
+}
+p {
+    font-variant: normal;
+    text-indent: 20px;
+}
+#destaque {
+    background-color: black;
+    color: #ffffff;
+    text-decoration: overline ;
+}
