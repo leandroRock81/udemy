@@ -1,6 +1,6 @@
 body {
     width: 80%;
-    margin: auto;
+    margin: auto; /*margin auto centraliza na horizontal*/
 }
 h1 {
     
@@ -17,8 +17,11 @@ h1 {
 .sub {
     color: brown;
     text-align: left;
-    border-bottom: 5px brown  solid;
+    border-bottom: 5px brown solid;
     border-left: 5px brown solid;
+    border-bottom-left-radius: 10px;
+     
+    
 }
 h3 {
     font-size: 20px;
@@ -33,7 +36,7 @@ a {
     text-decoration: none;
 }
 a:hover {
-    transition: 0.9s;
+    transition: 0.8s;
     text-decoration: underline;
     color: cadetblue;
     
