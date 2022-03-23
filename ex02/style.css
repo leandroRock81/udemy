@@ -1,26 +1,25 @@
 body {
     width: 80%;
     margin: auto; /*margin auto centraliza na horizontal*/
+    font-family: Verdana, helvetica, sans-serif;
 }
 h1 {
     
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: bolder;
     font-size: 40px;
     text-align: center;
     background-color: orange;
-    width: 1000px;
-    margin-top: 20px;
     padding: 5px;
 
 }
-.sub {
+h2 {
+    font-size: 30px;
     color: brown;
-    text-align: left;
+    background-color: orange;
+    padding: 10px;
     border-bottom: 5px brown solid;
     border-left: 5px brown solid;
     border-bottom-left-radius: 10px;
-     
+    border-bottom: 5px brown solid ;
     
 }
 h3 {
@@ -29,8 +28,14 @@ h3 {
 p {
     font-size: large;
 }
+
+ul {
+    padding-left: 0;
+}
 li {
     font-size: large;
+    padding-left: 0;
+    list-style-position: inside;
 }
 a {
     text-decoration: none;
