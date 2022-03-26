@@ -52,6 +52,14 @@ body {
     text-shadow: 3px 3px 5px rgb(32, 29, 29);
 }
 
+.hero-content p {
+    background-color: rgb(0,0,0, .8);
+    display: inline-block;
+    padding: 10px;
+    border-bottom: 3px solid white;
+    
+}
+
 main {
     width: 80%;
     margin: auto;
@@ -61,6 +69,35 @@ main {
     margin-top: 15px;
     background-color: white;
     padding: 15px;
+    overflow: auto;
+}
+
+.card {
+    width: 32%;
+    float: left;
+    box-sizing: border-box;
+}
+
+.card1, .card2 {
+    margin-right: 2%;
+}
+
+.card img {
+    width: 100%;
+    display: block;
+}
+ 
+.card p {
+    background-color: rgba(0, 0, 0, 0.815);
+    color: white;
+    text-align: center;
+    margin: 0;
+    padding: 15px;
+}
+
+.card a {
+    color: white;
+    text-decoration: none;
 }
 
 .content-header {
@@ -81,4 +118,9 @@ main {
     text-shadow: 2px 2px 2px black;
     background-color: #6b6c68;
     line-height: 80px;
+}
+
+.content-section section {
+    box-sizing: border-box;
+    width: auto;
 }
