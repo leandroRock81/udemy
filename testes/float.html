@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Float</title>
+    <style>
+        #container {
+            width: 80%;
+            padding: 15px;
+            background-color: azure;
+            border: 1px solid black;
+            overflow: auto; /*ao aplicar ele ve a altura das caixas aumentando o tamanha da div*/
+        }
+        #container div {
+            width: 150px;
+            height: 50px;
+            border: 2px solid black;
+            margin: 5px;
+        }
+        /*ao utilizar float a div nao enxerga mais como um elemento da caixa*/
+        #d1 {
+            float: left;
+        }
+        #d2 {
+            float: left;
+        }
+        #d3 {
+           background-color: yellow;
+           float: left;
+        }
+        header{
+            background-color: #ccc;
+            height: 50px;
+        }
+        nav {
+            text-align: center;
+            width: 30%;
+            height: 100px;
+            background-color: orange;
+            float: left;
+        }
+        main{
+            width: 70%;
+            height: 100px;
+            background-color: yellow;
+            float:right;
+        }
+        footer{
+            height: 50px;
+            background-color: blue;
+            clear: both;
+        }
+
+        
+    </style> 
+</head>
+<body>
+    <div id="container">
+        <div id="d1">div 1</div>
+        <div id="d2">div 2</div>
+        <div id="d3">div 3</div>
+    </div>
+    <header>header</header>
+    <nav>nav</nav>
+    <main>main</main>
+    <footer>footer</footer>
+
+</body>
+</html>
