@@ -1,14 +1,150 @@
 @charset "UTF-8";
 
-.topo {
-    position: relative;
-    background-color: black;
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
 }
 
-li {
-    position: absolute;
-   
-    top: 1px;
-    right: 100px;
+#principal {
+    width: 1024px;
+    margin: 20px auto;
 }
+
+.topo {
+    height: 50px;
+    background-color: #162028;
+    position: relative;
+}
+
+.logotipo {
+    margin: 6px 0 0 135px;
+}
+
+.menu {
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100%;
+
+}
+
+.menu ul {
+    margin: 0;
+    padding: 0;
+}
+
+.menu li {
+    list-style: none;
+    display: inline-block;
+    margin: 0 15px 0 0;
+    padding: 13px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #425564;
+    text-transform: uppercase;
+    font-size: 16px;
+    letter-spacing: 5px;
+}
+
+.menu a:hover {
+    color: white;
+    transition: 0.7s linear;
+    text-decoration: underline;
+}
+
+.portfolio {
+    padding-top: 50px 100px;
+    text-align: center;
+}
+
+.portfolio h1 {
+    font-size: 36px;
+    color: #252525;
+}
+
+.portfolio p {
+    font-size: 16px;
+    line-height: 2;
+    color: #555;
+}
+
+.galeria {
+    color: #555;
+    padding: 0 100px 50px 100px;
+    overflow: auto;
+}
+
+.card {
+   width: 32%;
+   float: left;
+   text-align: center; 
+}
+
+.titulo {
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 1px;
+}
+
+.sobre {
+    background-color: #003d52;
+    padding: 100px;
+    color: white;
+    background-image: url(imagens/bg_detalhe.png);
+    background-repeat: no-repeat;
+    background-position: right  bottom ;
+
+}
+
+.sobre p {
+    line-height: 1.5;
+    width: 70%;
+}
+
+.sobre h2 {
+    font-size: 35px;
+    text-transform: uppercase;
+    font-weight: normal;
+}
+
+#contato {
+    margin: 50px 0;
+}
+
+#contato address {
+    color: #143f52;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 26px;
+    text-align: center;
+}
+
+.mapa {
+    width: 100%;
+    height: 450px;
+    margin: 50px 0;
+    
+}
+
+.mapa iframe {
+    width: 100%;
+    
+}
+
+footer {
+    background-color: #0b171f;
+    padding: 25px;
+    text-align: center;
+    color: white;
+    font-size: 12px;
+    letter-spacing: 5px;
+    margin-top: -29px;
+}
+
+
 
