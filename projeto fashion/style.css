@@ -4,6 +4,7 @@ body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin: 0;
     padding: 0;
+    background-color: #f9f9f9;
 }
 
 #principal {
@@ -16,9 +17,10 @@ body {
     background-color: #162028;
     position: relative;
 }
-
-.logotipo {
-    margin: 6px 0 0 135px;
+.topo h1 {
+    color: rgba(255, 251, 251, 0.905);
+    margin-left: 45px;
+    letter-spacing: 3px; 
 }
 
 .menu {
@@ -102,8 +104,11 @@ body {
 }
 
 .sobre p {
+    text-align: right;
     line-height: 1.5;
     width: 70%;
+
+    
 }
 
 .sobre h2 {
@@ -112,8 +117,16 @@ body {
     font-weight: normal;
 }
 
+.imgsobre {
+    
+    float: left;
+    width: 350px;
+    height: 350px;
+    border: white solid 2px;
+}
+
 #contato {
-    margin: 50px 0;
+    margin-top: 20px;
 }
 
 #contato address {
