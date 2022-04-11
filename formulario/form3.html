@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulários</title>
+    <style>
+        .login {
+            width: 250px;
+            margin: 50px auto;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        .login label {
+            margin-top: 10px;
+            display: block;
+            text-align: center;
+        }
+        #user, #pass, .btn {
+            width: 100%;
+            display: block;
+            box-sizing: border-box;
+            padding: 5px;
+            
+        }
+        .btn {
+            margin-top: 4px;
+        }
+        legend {
+            text-align: center;
+            color: red;
+        }
+        fieldset {
+            background-color: rgb(214, 231, 224);
+           
+            
+        }
+        h1 {
+            background-color: aqua;
+            display: block;
+            width: 200px;
+            padding: 9px;
+            border: 1px solid black;
+            text-align: center;
+            margin: auto;
+        }
+       
+        
+    </style>
+
+</head>
+<body>
+    <h1>Olá Mundo!!!!</h1>
+    <form action="#" method="post" class="login">
+        <fieldset>
+            <legend>Login</legend>
+
+            <label for="user">Usuário</label>
+            <input type="text" id="user" name="user" autofocus>
+
+            <label for="pass">Digite sua senha</label>
+            <input type="password" id="user" name="pass">
+
+            <input type="submit" value="OK" class="btn">
+
+        </fieldset>
+    </form>
+    
+</body>
+</html>
