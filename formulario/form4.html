@@ -7,28 +7,68 @@
     <title>Formulários</title>
 </head>
 <body>
-    <form action="#" method="get" class="login"></form>
+    <form action="#" method="post" class="login">
 
-    <fieldset>
-        <legend>Dados pessoais</legend>
-        <label>Email</label>
-        <input type="email">
+        <fieldset>
+            <legend>Dados pessoais</legend>
+            <label>Email</label>
+            <input type="email" required>
 
-        <label>Número de filhos</label>
-        <input type="number" min="0">
+            <label>Número de filhos</label>
+            <input type="number" min="0">
 
-        <label>Nascimento</label>
-        <input type="date" min="2022-01-30" max="2138-01-30">
+            <label>Nascimento</label>
+            <input type="date" min="2022-01-30" max="2138-01-30">
 
-        <p>Sexo</p>
-        <input type="radio" name="sexo" value="m">
-        <label>Masculino</label>
-        <input type="radio" name="sexo" value="f">
-        <label>Feminino</label>
-        
+            <p>Sexo</p>
+            <input type="radio" name="sexo" value="m">
+            <label>Masculino</label>
+            <input type="radio" name="sexo" value="f">
+            <label>Feminino</label>
+            <br>
 
+            <label>Estado</label>
+                <select name="Estado">
+                    <option value="0">Selecionar</option>
+                    <option value="SP">São Paulo</option>
+                    <option value="SC">Santa Catarina</option>
+                    <option value="RG">Rio Grande do Sul</option>
+                    <option value="RJ">Rio de Janeiro</option>
+                </select>
+            </fieldset>
+
+            <fieldset>
+                <legend>Área de interesse</legend>
+
+                <label><input type="checkbox" name="html" value="html">Html</label>
+                <label><input type="checkbox" name="css" value="css">Css</label>
+                <label><input type="checkbox" name="js" value="Javascript">Javascript</label>
+            </fieldset>
+
+            <fieldset>
+                <legend>Mensagem</legend>
+                <textarea name="msg" id="" cols="30" rows="10"></textarea>
+                <label><input type="checkbox" required>Li e aceito</label>
+
+                <textarea name="Contrato" id="" cols="30" rows="10" disabled>Aqui entra o texto do contrato que precisa ser aceito</textarea>
+                <input type="range" min="0" max="10">
+                <input type="time">
+                <input type="color">
+                <input type="range">
+                <select>
+                    <option>opção 1</option>
+                    <option>opção 2</option>
+                    <option>opção 3</option>
+                    <option>opção 4</option>
+                </select>
+                
+        </fieldset>
         <input type="submit" value="OK">
-    </fieldset> 
+    </form>       
+    
+       
+       
+    
 
     
     
