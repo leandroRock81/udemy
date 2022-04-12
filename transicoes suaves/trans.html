@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transições Suaves</title>
+    <meta name="author" content="Leandro">
+    <meta name="keywords" content="html 5, tecnologia">
+    <style>
+        div {
+            margin: 50px auto;
+            width: 200px;
+            height: 200px;
+            text-align: center;
+            background-color: blueviolet;
+            transition-property: width, height; /*ou apenas width ou height e all para todos*/
+            transition-duration: 1s;
+            transition-timing-function: ease-in-out;
+            transition-delay: 0s, 0.8s;
+        }
+        div:hover {
+            width: 400px;
+            height: 400px;
+            
+        }
+        p {
+            color: aliceblue;
+            padding: 50px;
+        }
+    </style>
+
+</head>
+<body>
+    <h1>Transições Suaves</h1>
+
+    <div>
+        <p>Olá mundo!</p>
+    </div>
+</body>
+</html>
