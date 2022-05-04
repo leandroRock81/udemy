@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        p::first-letter {
+            float: left;
+            font-size: 3em;
+            line-height: 0.5;
+            display: inline-block;
+            margin-left: 0.5em;
+        }
+
+        p::first-line {
+            text-decoration: underline;
+        }
+        p::-moz-selection { /*moz é para funcionar no firefox*/
+            background-color: yellow;
+        }
+        p::selection {
+            background-color: yellow;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Pseudo Elementos</h1>
+    
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id repellat, quos eveniet hic necessitatibus non quisquam quam dolor! Maxime sapiente totam enim possimus. Exercitationem illo inventore accusamus soluta itaque at.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora sapiente quos necessitatibus aliquam deserunt. Repellendus, repudiandae ab incidunt, sunt, quas laudantium corporis iusto saepe labore quos est modi earum quod.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit dolorum blanditiis nesciunt quaerat fugiat asperiores, in inventore ad aliquid officiis deserunt doloribus suscipit, eligendi sequi facilis vel hic itaque velit!</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit ipsam voluptatibus sint magni at. Atque corrupti magni et reprehenderit ad asperiores alias sunt fugit quaerat? Molestias placeat repellendus fugiat doloribus?</p>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Omnis odit, recusandae tenetur architecto numquam vitae ratione laborum labore aliquid quisquam, iste ipsam, doloremque sint. Autem est dolores tenetur voluptates obcaecati!</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio, fugit quas laboriosam voluptatibus soluta saepe culpa unde nulla porro dolores voluptate eveniet, provident temporibus, aliquam ipsam incidunt dicta harum quae.</p>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Commodi, saepe, quam repellat quisquam officia pariatur beatae voluptate ut facere quo sit maiores tempora? Nesciunt, dicta? Quae vero similique quos velit?</p>
+</body>
+</html>

@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .div1 {
+            width: 150px;
+            height: 150px;
+            background-color: aquamarine;
+            transform: translatex(50px); /*o elemento se move no eixo x direita ou esquerda e y cima ou baixo */
+        }
+        .div2 {
+            width: 150px;
+            height: 150px;
+            background-color: rgb(36, 153,23);
+            position: relative;
+            top: -50px;
+            left: 50%;
+        }
+        .div3 {
+            width: 50%;
+            border: 1px solid black;
+            overflow: hidden;
+        }
+        .interno {
+            background-color: aqua;
+            transform: translateX(26%);
+        }
+        .div4 {
+            width: 50%;
+            border: 1px solid black;
+            overflow: hidden;
+        }
+        .interno2 {
+            background-color: aqua;
+            transform: rotate(-25deg);
+        }
+        .div5 {
+            width: 50%;
+            border: 1px solid black;
+            overflow: hidden;
+        }
+        .interno3 {
+            background-color: rgba(0, 255, 255, 0.399);
+            transform: rotate(9deg);
+            transform-origin: left;
+        }
+        .div6 {
+            width: 50%;
+            border: 1px solid black;
+            overflow: hidden;
+        }
+        .interno4 {
+            background-color: rgba(0, 255, 255, 0.399);
+            transform: rotate(9deg) translate(50%);
+               
+        }
+        .div7 {
+            width: 50%;
+            border: 1px solid black;
+            overflow: hidden;
+        }
+        .interno5 {
+            background-color: rgba(0, 255, 255, 0.399);
+            transform: translate(30px) rotate(30deg);      
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Propriedade Transform</h1>
+
+    <div class="div1">div 1</div>
+    <div class="div2">div 2</div>
+    <hr>
+
+    <div class="div3">
+        <div class="interno">Conteúdo</div>
+         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Modi necessitatibus recusandae quo soluta natus quibusdam reprehenderit quaerat repudiandae dicta saepe doloribus quae magnam nihil, itaque asperiores excepturi. Quidem, consequatur enim.</p>   
+    </div>
+    <hr>
+
+    <div class="div4">
+        <div class="interno2">Conteúdo</div>
+         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Modi necessitatibus recusandae quo soluta natus quibusdam reprehenderit quaerat repudiandae dicta saepe doloribus quae magnam nihil, itaque asperiores excepturi. Quidem, consequatur enim.</p>   
+    </div>
+    <hr>
+    <div class="div5">
+        <div class="interno3">Conteúdo</div>
+         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Modi necessitatibus recusandae quo soluta natus quibusdam reprehenderit quaerat repudiandae dicta saepe doloribus quae magnam nihil, itaque asperiores excepturi. Quidem, consequatur enim.</p>   
+    </div>
+    <hr>
+    <div class="div6">
+        <div class="interno4">Conteúdo</div>
+         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Modi necessitatibus recusandae quo soluta natus quibusdam reprehenderit quaerat repudiandae dicta saepe doloribus quae magnam nihil, itaque asperiores excepturi. Quidem, consequatur enim.</p>   
+    </div>
+    <hr>
+    <div class="div7">
+        <div class="interno5">Conteúdo</div>
+         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Modi necessitatibus recusandae quo soluta natus quibusdam reprehenderit quaerat repudiandae dicta saepe doloribus quae magnam nihil, itaque asperiores excepturi. Quidem, consequatur enim.</p>   
+    </div>
+</body>
+</html>

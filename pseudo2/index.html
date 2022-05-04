@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo classes</title>
+    <style>
+        div p:nth-of-type(4) {
+            color: red;
+        }
+
+        .destaque:last-child {
+            background-color: aqua;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Pseudo classes e pseudo elementos</h1>
+
+    <div>
+        <p>Meu parágrafo</p>
+        <p>Meu parágrafo</p>
+        <hr>
+
+        <p class="destaque">Meu parágrafo</p>
+        <p>Meu parágrafo</p>
+        <hr>
+
+        <p class="destaque">Meu parágrafo</p>
+        <p>Meu parágrafo</p>
+        <hr>
+
+        <p>Meu parágrafo</p>
+        <p>Meu parágrafo</p>
+        
+    </div>
+    
+</body>
+</html>
