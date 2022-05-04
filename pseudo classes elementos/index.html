@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        input[type="checkbox"] {
+            width: 50px;
+            height: 50px;
+        }
+
+        input[type="checkbox"]:checked {
+            width: 25px;
+            height: 25px;
+        }
+
+        button:disabled {
+            background-color: aqua;
+        }
+
+        p {
+            color: blue;
+        }
+
+        p:empty::before {
+            content: "Parágrafo vazio não dá ne";
+        }
+
+        input[type="text"]:focus {
+            background-color: blueviolet;
+        }
+
+        a:focus {
+            background-color: aqua;
+        }
+
+        input {
+            display: block;
+            margin: 3px;
+        } 
+
+        input:disabled {
+            color: red;
+        }
+            
+        
+    </style>
+</head>
+<body>
+    <h1>Pseudo Classes e Pseudo Elementos</h1>
+
+    <label><input type="checkbox" value="sim">Aceito o contrato</label>
+
+    <button>vai</button>
+    <button disabled>volta</button>
+
+    <p>Parágrafo 1</p>
+    <p> </p>
+    <p></p>
+    <hr>
+
+    <input type="text">
+    <input type="text" value="Valor inicial">
+    <input type="text" value="Valor inicial" readonly>
+    <input type="text" value="Valor inicial" disabled>
+    <input type="text" placeholder="Valor do placeholder">
+
+    <ul>
+        <li><a href="#">Link vazio</a></li>
+        <li><a href="#">Link vazio</a></li>
+        <li><a href="#">Link vazio</a></li>
+        <li><a href="#">Link vazio</a></li>
+    </ul>
+
+    <div tabindex="1">div 1</div>
+    <div tabindex="2">div 2</div>
+    <div tabindex="3">div 3</div>
+</body>
+</html>

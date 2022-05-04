@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Before e after</title>
+
+    <style>
+        div {
+            border: 2px solid black;
+            padding: 25px;
+            width: 15%;
+        }
+
+        div::before {
+            content: "before:";
+            background-color: aquamarine;
+        }
+
+        div::after {
+            content: "after";
+            background-color: aquamarine;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Adicionar conteúdo com Before e After</h1>
+
+    <div>Texto principal div</div>
+    <article>
+
+        <h3>Título</h3>
+        <p>parágrafo <a href="#">Apenas um link com <b>negrito</b></a></p>
+        <p>parágrafo <a href="#">Apenas um link com <b>negrito</b></a></p>
+        <p>parágrafo <a href="#">Apenas um link com <b>negrito</b></a></p>
+
+    </article>
+
+    <ul>
+        <li><a href="#">link falso</a></li>
+        <li><a href="#">link falso</a></li>
+        <li><a href="https://serfrontend.com">link externo</a></li>
+        <li><a href="23_transition.html/qq.pdf" title="veja" target="_blank">link interno</a></li>
+    </ul>  
+
+</body>
+</html>
